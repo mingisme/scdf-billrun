@@ -1,1 +1,11 @@
 # scdf-billrun
+
+
+export SPRING_CLOUD_DATAFLOW_FEATURES_STREAMS_ENABLED=false
+export SPRING_CLOUD_DATAFLOW_FEATURES_SCHEDULES_ENABLED=false
+export SPRING_CLOUD_DATAFLOW_FEATURES_TASKS_ENABLED=true
+export spring_datasource_url=jdbc:mariadb://localhost:3306/task
+export spring_datasource_username=root
+export spring_datasource_password=123456
+export spring_datasource_driverClassName=org.mariadb.jdbc.Driver
+export spring_datasource_initialization_mode=never
